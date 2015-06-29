@@ -1,0 +1,26 @@
+{
+  "name": "status-warden-model",
+  "version": "0.0.30",
+  "dependencies": {
+    "mongoose": "4.0.x",
+    "mongoose-id-validator": "0.1.x",
+    "bcryptjs": "2.1.x"
+  },
+  "description": "The status warden model is the mongoose data model used throughout the status warden application stack for interfacing with the underlying mongodb database",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeaim/status-warden-model.git"
+  },
+  "keywords": [
+    "status",
+    "warden",
+    "model"
+  ],
+  "author": "Gerard Downes",
+  "bugs": {
+    "url": "https://github.com/codeaim/status-warden-model/issues"
+  },
+  "homepage": "https://github.com/codeaim/status-warden-model",
+  "readme": "README.md"
+}
