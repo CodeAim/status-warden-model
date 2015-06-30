@@ -1,6 +1,6 @@
 {
   "name": "status-warden-model",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "dependencies": {
     "mongoose": "4.0.x",
     "mongoose-id-validator": "0.1.x",
