@@ -55,5 +55,6 @@ Status Warden is a status monitoring service for supervising web address health.
 - Other status warden github repositories
  - [status-warden-api](https://github.com/codeaim/status-warden-api) - The status warden rest api
  - [status-warden-database](https://github.com/codeaim/status-warden-database) - The status warden mongodb database
+ - [status-warden-model](https://github.com/codeaim/status-warden-model) - The status warden mongoose model
  - [status-warden-scheduler](https://github.com/codeaim/status-warden-scheduler) - The status warden scheduler and background processor
  - [status-warden-web](https://github.com/codeaim/status-warden-web) - The status warden web based dashboard
