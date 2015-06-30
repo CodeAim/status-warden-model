@@ -10,7 +10,7 @@ var monitorSchema = new mongoose.Schema({
 	name: { type: String, required: true },
 	repeatInterval: { type: String, default: "1 minute" },
 	state: { type: String, enum: ['Running', 'Stopped'], default: 'Running', required: true },
-	status: { type: String, enum: ['Up', 'Down', 'Unknown'], default: 'Unknown', required: true },
+	status: { type: String, enum: ['Down', 'Invalid', 'Unknown', 'Up'], default: 'Unknown', required: true },
 	url: { type: String, validate: /((?:https?\:\/\/)(?:[-a-z0-9]+\.)*[-a-z0-9]+.*)/i, required: true },
 	user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true }
 },

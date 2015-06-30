@@ -6,7 +6,7 @@ var monitorEventSchema = new mongoose.Schema({
 	created: { type: Date, default: Date.now, required: true },
 	monitor: { type: mongoose.Schema.Types.ObjectId, ref: 'Monitor', required: true },
 	responseTime: { type: Number, required: true },
-    status: { type: String, enum: ['Up', 'Down'], required: true },
+    status: { type: String, enum: ['Down', 'Invalid', 'Up'], required: true },
 	statusCode: { type: Number, required: true },
     user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true }
 },
